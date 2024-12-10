@@ -10,7 +10,7 @@ import lombok.Setter;
 public class DesignUpdateDTO {
 
     @NotNull
-    private String id;
+    private Long id;
 
     @NotBlank
     private String designName;
